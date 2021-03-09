@@ -31,6 +31,7 @@ app.get("/api/whoami", function (req, res) {
   "ipaddress": req.ip, 
   "language": req.headers["accept-language"], 
   "software": req.headers["user-agent"]
+  //"header": req.headers
   });
 });
 
